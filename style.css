@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+nav{
+    background-color: black;
+    padding: 2em;
+    justify-items: center;
+}
+nav a{
+    margin-left: 200px;
+    text-align: center;
+    font-size: 1em;
+    justify-content: center;
+    display: inline;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+    color: rgba(0, 255, 255, 0.712);
+}
+.main img{
+    margin: 3em;
+    height: 450px;
+    border: solid rgba(0, 255, 255, 0.712) 5px;
+    border-radius: 10%;
+}
+.header {
+    margin-left: 500px;
+    margin-top: -400px;
+}
+.header h2{
+    font-size: 30px;
+    color: white;
+}
+.header h1{
+    font-size: 40px;
+    color: rgba(0, 255, 255, 0.712);
+}
+.header p{
+    margin-top: 1em;
+    margin-right: 2em;
+    font-size: 25px;
+    color: white;
+}
+#about {
+    margin-top: 20rem;
+    background-color: rgb(165, 165, 165);
+}
+.middle img{
+    margin-top: 5rem;
+    margin-left: 850px;
+    margin-bottom: 5.5em;
+    height: 450px;
+    border: solid rgb(1, 131, 131) 5px;
+    border-radius: 10%;
+}
+.about{
+    margin-right: 500px;
+    margin-top: -500px;
+}
+.about h1{
+    margin-top: -10em;
+    text-align: center;
+    font-size: 40px;
+}
+.about span{
+    color: rgb(1, 131, 131);
+}
+.about p{
+    text-align: justify;
+    padding:3em ;
+    font-size: 25px;
+    padding-bottom: 5em;
+}
+section.services{
+    background: rgb(37, 37, 37);
+    margin: 3em
+}
+section.services .card-group{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap:2rem;
+    grid-row-gap:1em ;
+    padding-top: 5em;
+    padding-bottom:5em ;
+}
+section.services .card-group .card{
+    background: white;
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 3rem;
+    text-align: center;
+    align-items: center;
+}
+section.services .card-group .card img{
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform:translateX(-50%); 
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+section.services h1{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 3rem;
+    text-shadow: #34aa96;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.services h1 span{
+    font-size: 3rem;
+    color: rgba(0, 255, 255, 0.712);
+    text-decoration: solid;
+    text-shadow: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section.services p{
+    padding-bottom: 2em;
+    padding-top: -2em;
+    color: white;
+}
+section.services .card-group .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+section.services .card-group .card p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+}
+section.servicces .card-group.card-body:hover{
+    background: black
+}
+section.servicces .card-group.card-body:hover h2, section.servicces.card-group .card-body:hover p{
+    color: black;
+}
+
+section .footer{
+    background-color: rgb(165, 165, 165) ;
+    padding: 3em;
+}
+.footer h4{
+    text-align: center;
+    font-size: 1.5em;
+    color:  rgb(1, 131, 131);;
+}
+.footer .footer_img{
+    text-align: center;
+    padding-top: 1em;
+    
+}
