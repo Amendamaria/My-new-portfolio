@@ -52,7 +52,7 @@ nav a:hover{
 }
 .middle img{
     margin-top: 5rem;
-    margin-left: 65em;
+    margin-left: 850px;
     margin-bottom: 5.5em;
     height: 450px;
     border: solid rgb(1, 131, 131) 5px;
@@ -158,4 +158,12 @@ section .footer{
 .footer .footer_img{
     text-align: center;
     padding-top: 1em;
+    transition: transform 0.3s ease;
+}
+.footer .footer_img svg{
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+.footer .footer_img svg:hover{
+    transform: scale(1.2);    
 }
