@@ -95,6 +95,10 @@ section.services .card-group .card{
     padding-top: 3rem;
     text-align: center;
     align-items: center;
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 section.services .card-group .card img{
     position: absolute;
@@ -154,5 +158,4 @@ section .footer{
 .footer .footer_img{
     text-align: center;
     padding-top: 1em;
-    
 }
